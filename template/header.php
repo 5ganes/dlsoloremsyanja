@@ -3,7 +3,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<meta name="viewport" content="initial-scale=1.0">
-	<title>DADO Saptari - Home</title>
+	<title>DLSO Syangja - Home</title>
 	<?php include('baselocation.php'); ?>
 	<script id="facebook-jssdk" src="js/sdk.js"></script>
 
