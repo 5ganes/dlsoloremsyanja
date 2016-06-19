@@ -27,7 +27,7 @@
 				<h5>नेपाल सरकार</h5>
 				<h5>कृषि विकास मन्त्रालय</h5>
 				<h4>कृषि विभाग</h4>
-				<h3>जिल्ला कृषी विकाश कार्यालय, सप्तरी</h3>
+				<h3>जिल्ला पशु सेवा कार्यालय, स्याङ्जा</h3>
 			</div>
 			<div id="header-flag">
 				<img src="images/flagnepal1.gif" style="width: 48%;margin-top: 4%;margin-left: 40%;" />
