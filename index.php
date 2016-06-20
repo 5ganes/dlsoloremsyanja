@@ -7,7 +7,7 @@
 		
 		function __construct($page,$action,$pageLinkType,$query)
 		{
-			global $groups; global $conn;
+			global $groups; global $listingFiles; global $conn;
 			require_once('template/header.php');
 			require_once('template/sidebar.php');
 			require_once('template/body.php');

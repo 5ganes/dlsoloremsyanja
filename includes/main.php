@@ -52,14 +52,15 @@
   <div id="widgets-wrap-sidebar-right">
     <div id="text-9" class="widget-sidebar frontier-widget widget_text">
       <?php
-      $officer=$groups->getById(OFFICER); $officer=$conn->fetchArray($officer);
+      $info_officer=$groups->getById(INFO_OFFICER); $info_officer=$conn->fetchArray($info_officer);
       ?>
-      <h4 class="widget-title"><?=$officer['name'];?></h4>
+      <h4 class="widget-title"><?php echo $info_officer['name'];?></h4>
       <div class="textwidget">
-        <a><img src="<?=CMS_GROUPS_DIR.$officer['image'];?>"></a>
-        <?=$officer['shortcontents'];?>
+        <a href="<?=$info_officer['urlname']; ?>">
+        <img src="<?=CMS_GROUPS_DIR.$info_officer['image'];?>" <figcaption="">
+        <?=$info_officer['shortcontents']; ?>
+        </a>
       </div>
-      <a></a>
     </div>
     
     <div id="text-6" class="widget-sidebar frontier-widget widget_text">

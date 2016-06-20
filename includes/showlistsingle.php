@@ -42,6 +42,19 @@
   			<div>
     			<?= $listRow['contents']; ?>
   			</div>
+        <div style="margin-top: 10px;">
+          <h3 style="text-decoration: underline;">#Attachments</h3>
+          <ul>
+            <?php $file=$listingFiles->getByListingId($pageId);
+            while($fileGet=$conn->fetchArray($file)){?>
+              <li>
+                <a href="<?php echo CMS_LISTING_FILES_DIR.$fileGet['filename'];?>">
+                  <?php echo $fileGet['filename'];?>
+                </a>
+              </li>
+            <?php }?>
+          </ul>
+        </div>
 		</div>
 	</div>
 </article>
