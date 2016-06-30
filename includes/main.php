@@ -57,9 +57,11 @@
       <h4 class="widget-title"><?php echo $info_officer['name'];?></h4>
       <div class="textwidget">
         <a href="<?=$info_officer['urlname']; ?>">
-        <img src="<?=CMS_GROUPS_DIR.$info_officer['image'];?>" <figcaption="">
-        <?=$info_officer['shortcontents']; ?>
+        <img src="<?=CMS_GROUPS_DIR.$info_officer['image'];?>" />
         </a>
+        <?=$info_officer['shortcontents']; ?>
+        <br>
+        <a style="font-weight: bold;font-size: 15px;float: right;" href="<?=$info_officer['urlname']; ?>">read more...</a>
       </div>
     </div>
     

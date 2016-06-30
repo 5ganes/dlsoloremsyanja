@@ -6,9 +6,10 @@
 		    ?>
 		    <h4 class="widget-title"><?=$officer['name'];?></h4>
 		    <div class="textwidget">
-		    	<a><img src="<?=CMS_GROUPS_DIR.$officer['image'];?>"></a>
+		    	<a href="<?=$officer['urlname']; ?>"><img src="<?=CMS_GROUPS_DIR.$officer['image'];?>"></a>
 		        <?=$officer['shortcontents'];?>
 		    </div>
+		    <a style="font-weight: bold;font-size: 15px;float: right;" href="<?=$officer['urlname']; ?>">read more...</a>
 		</div>
 		<div id="text-3" class="widget-sidebar frontier-widget widget_text">
 			<h4 class="widget-title">उपयोगी लिङ्क्स</h4>
