@@ -116,6 +116,7 @@ class Groups
 		$parentId = cleanQuery($parentId);
 		$shortcontents = cleanQuery($shortcontents);
 		
+		$urlname=rand(0,100000).date('Y-m-d H-m-i');
 		if($id > 0)
 		$sql = "UPDATE groups
 						SET
@@ -126,6 +127,7 @@ class Groups
 		$sql = "INSERT INTO groups 
 						SET
 							parentId='$parentId',
+							urlname = '$urlname',
 							linkType = 'GallerySub',
 							shortcontents = '$shortcontents',
 							onDate = NOW()";
@@ -144,6 +146,7 @@ class Groups
 		$parentId = cleanQuery($parentId);
 		$contents = cleanQuery($contents);
 		
+		$urlname=rand(0,100000).date('Y-m-d H-m-i');
 		if($id > 0)
 		$sql = "UPDATE groups
 						SET
@@ -154,6 +157,7 @@ class Groups
 		$sql = "INSERT INTO groups 
 						SET
 							parentId='$parentId',
+							urlname  = '$urlname',
 							linkType = 'VideoSub',
 							contents = '$contents',
 							onDate = NOW()";
