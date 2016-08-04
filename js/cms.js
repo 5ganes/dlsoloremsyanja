@@ -173,7 +173,7 @@ function changeLinkType(sbox)
 	{
 		document.getElementById('pageDetails').style.display = 'block';
 		
-		myDiv = document.getElementById('normalGroupDiv');
+		myDiv = document.getElementById('fckEditor');
 		myDiv.style.display = 'block';
 		
 		document.getElementById('displaytype').style.display = 'block';
