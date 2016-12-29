@@ -1,1 +1,1 @@
-<base href="http://<?=$_SERVER['HTTP_HOST']?>/dlsosyanja/" />
+<base href="http://<?=$_SERVER['HTTP_HOST']?>/dlsosyangja/" />
